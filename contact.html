@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Uttarakhand - Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2c0d1a;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #aa7088;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 2rem;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+    label, input, textarea {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    input, textarea {
+      padding: 0.5rem;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #b67590;
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1b030d;
+    }
+    .info {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .map {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 400px;
+      border: 0;
+      border-radius: 8px;
+    }
+    /* Responsive Styles */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    margin: 10px 0;
+  }
+  .content {
+    padding: 1rem;
+  }
+  form {
+    width: 100%;
+  }
+  iframe {
+    height: 250px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Explore Uttarakhand</h1>
+    <p>Contact Us</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="packages.html">Tour Packages</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="faq.html">FAQ</a>
+  </nav>
+
+  <div class="content">
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info">
+      <p><strong>Email:</strong> explore@uttarakhandtours.com</p>
+      <p><strong>Phone:</strong> +91-9876543210</p>
+      <p><strong>Address:</strong> Dehradun, Uttarakhand, India</p>
+    </div>
+    <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3446.8308790144573!2d78.03219221513087!3d30.31649418176811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929fef23e3e3b%3A0x15b74fbd80e09b7d!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1679219473883"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+  </div>
+  <footer style="background:#b67590; color:white; text-align:center; padding:1rem; margin-top:2rem;">
+    <p>Connect with us:</p>
+    <a href="https://facebook.com/yourpage" target="_blank" style="color:white; margin: 0 10px; text-decoration:none;">📘 Facebook</a>
+    <a href="https://instagram.com/yourprofile" target="_blank" style="color:white; margin: 0 10px; text-decoration:none;">📸 Instagram</a>
+    <a href="https://twitter.com/yourprofile" target="_blank" style="color:white; margin: 0 10px; text-decoration:none;">🐦 Twitter</a>
+    <a href="https://youtube.com/yourchannel" target="_blank" style="color:white; margin: 0 10px; text-decoration:none;">▶️ YouTube</a>
+    <a href="https://wa.me/919876543210" target="_blank" style="color:white; margin: 0 10px; text-decoration:none;">💬 WhatsApp</a>
+    <p style="margin-top:1rem;">© 2025 Explore Uttarakhand</p>
+  </footer>
+</body>
+</html>
